@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './tracks-page.component.css'
 })
 export class TracksPageComponent {
-
+  mockTracksList = [
+    {
+      name: 'Track 1'
+    },
+    {
+      name: 'Track 2'
+    },
+    {
+      name: 'Track 3'
+    }
+  ]
 }
