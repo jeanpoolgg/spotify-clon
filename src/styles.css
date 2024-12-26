@@ -24,3 +24,9 @@ body {
   font-size: var(--font-size-1);
   color: var(--color-4);
 }
+
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: .5;
+}
